@@ -18,7 +18,6 @@ export = function googleTranslateSteps() {
     let actor: Actor;
     
     this.Given(/^that (.*) go to google translate using google$/, function (actorName: string) {
-        actor = Actor.named(actorName);
         actor = Actor.named(actorName).whoCan(BrowseTheWeb.using(protractor.browser));
 
         return actor.attemptsTo(
