@@ -1,0 +1,13 @@
+# IntelliJ
+.idea
+*.iml
+.vscode
+
+# Serenity/JS output
+target
+
+# Node
+node_modules
+
+package-lock.json
+
